@@ -100,10 +100,10 @@ main{
 .article_sections section:first-child::before{
   background-color:var(--Cyan);
 }
-.article_sections section:nth-child(2):before{
+.article_sections div section:first-child::before{
   background-color:var(--Red);
 }
-.article_sections section:nth-child(3):before{
+.article_sections div section:last-child:before{
   background-color:var(--Orange);
 }
 .article_sections section:last-child::before{
